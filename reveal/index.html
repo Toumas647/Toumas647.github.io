@@ -16,16 +16,19 @@
       href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css"
     />
   </head>
+
   <body>
     <div class="reveal">
-      <div
-        class="slides"
-        data-markdown="presentation.md"
-        data-separator="^---$"
-        data-separator-vertical="^--$"
-        data-separator-notes="^Note:"
-        data-charset="utf-8"
-      ></div>
+      <div class="slides">
+        <!-- ✅ THIS SECTION IS REQUIRED -->
+        <section
+          data-markdown="presentation.md"
+          data-separator="^---$"
+          data-separator-vertical="^--$"
+          data-separator-notes="^Note:"
+          data-charset="utf-8"
+        ></section>
+      </div>
     </div>
 
     <script type="module">
@@ -35,6 +38,7 @@
 
       Reveal.initialize({
         hash: true,
+        view: slide,
         plugins: [Markdown, Notes],
       });
     </script>

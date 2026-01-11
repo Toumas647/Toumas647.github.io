@@ -11,7 +11,7 @@
 
 ## What is GitHub Pages?
 
-**GitHub Pages** is a free hosting service that allows you to publish static websites directly from a GitHub repository.
+GitHub Pages is a free hosting service that allows you to publish static websites directly from a GitHub repository.
 
 ### Features
 
@@ -32,7 +32,7 @@
 
 ## What is Reveal.js?
 
-**Reveal.js** is a JavaScript framework for creating presentations using HTML and Markdown.
+Reveal.js is a JavaScript framework for creating presentations using HTML and Markdown.
 
 ### Advantages
 
@@ -65,7 +65,7 @@ Vertical navigation implemented ✔
 
 ## Jekyll Overview
 
-**Jekyll** is a static site generator used by GitHub Pages.
+Jekyll is a static site generator used by GitHub Pages.
 
 ### Benefits
 
@@ -84,16 +84,6 @@ Vertical navigation implemented ✔
 | Reveal.js    | Presentation framework |
 | Markdown     | Slide content          |
 | HTML         | Structure              |
-
----
-
-## Website Structure
-
-- Home page
-- About page
-- Projects page
-- Contact page
-- Reveal.js presentation
 
 ---
 
