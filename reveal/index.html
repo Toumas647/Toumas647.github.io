@@ -28,14 +28,14 @@
       ></div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+    <script type="module">
+      import Reveal from "https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.esm.js";
+      import Markdown from "https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.esm.js";
+      import Notes from "https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.esm.js";
 
-    <script>
       Reveal.initialize({
         hash: true,
-        plugins: [RevealMarkdown, RevealNotes],
+        plugins: [Markdown, Notes],
       });
     </script>
   </body>
