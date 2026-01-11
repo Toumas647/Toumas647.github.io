@@ -50,7 +50,7 @@ Reveal.js is a JavaScript framework for creating presentations using HTML and Ma
 
 ![Reveal.js](https://revealjs.com/images/logo/reveal-black-text.svg)
 
----
+--
 
 ## Vertical Navigation Example
 
@@ -64,7 +64,7 @@ Navigate using **↓ arrow**
 
 Vertical navigation implemented ✔
 
----
+--
 
 ## Jekyll Overview
 
