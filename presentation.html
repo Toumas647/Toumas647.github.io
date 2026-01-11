@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Interactive Learning with Reveal.js</title>
+		<title>GitHub Pages & Jekyll Presentation</title>
 
-		<meta name="description" content="A presentation about creating interactive learning experiences">
-		<meta name="author" content="Trust Maramba">
+		<meta name="description" content="A presentation about GitHub Pages and Jekyll">
+		<meta name="author" content="Toumas">
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -22,213 +22,185 @@
 				<!-- Slide 1: Title Slide -->
 				<section data-markdown>
 					<script type="text/template">
-						# Interactive Learning with Reveal.js
+						# GitHub Pages & Jekyll
 
-						## Creating Engaging Presentations
+						## Building Static Websites
 
-						![Reveal.js Logo](https://static.slid.es/reveal/logo-v1/reveal-white-text.svg)
+						<!-- Replace with your custom image -->
+						![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-						*By Trust Maramba*
+						*By Toumas*
 
 						---
 
-						Press the down arrow to explore more ⬇️
+						Press → to continue
 					</script>
 				</section>
 
-				<!-- Slide 2: What is Reveal.js? (with vertical slides) -->
+				<!-- Slide 2: What is GitHub Pages? (with vertical slides) -->
 				<section>
 					<section data-markdown>
 						<script type="text/template">
-							## What is Reveal.js?
+							## What is GitHub Pages?
 
-							Reveal.js is an **open-source HTML presentation framework** that enables anyone with a web browser to create beautiful presentations for free.
+							**GitHub Pages** is a free hosting service that allows you to publish websites directly from your GitHub repository.
 
 							### Key Features:
-							- 📱 Touch optimized
-							- 🎨 Multiple themes
-							- 📝 Markdown support
-							- 🎬 Auto-animations
-							- 📊 Code syntax highlighting
+							- 🌐 Free hosting
+							- 🚀 Easy deployment
+							- 🔒 HTTPS support
+							- 📝 Custom domains
 
-							<small>Press ⬇️ to learn more about features</small>
+							<small>Press ⬇️ to learn more</small>
 						</script>
 					</section>
 
 					<section data-markdown data-background="#283b95">
 						<script type="text/template">
-							## Nested Slides
+							## How It Works
 
-							Vertical slides are perfect for adding **additional detail** underneath a high-level horizontal slide.
+							1. Create a GitHub repository
+							2. Add HTML files
+							3. Enable GitHub Pages in settings
+							4. Your site is live!
 
-							This creates a **2D navigation** experience:
-							- Horizontal: Main topics
-							- Vertical: Deep dives
+							<!-- Replace with your custom screenshot -->
+							![GitHub Pages Settings](https://docs.github.com/assets/cb-48292/mw-1440/images/help/pages/select-source.webp)
 
-							![Navigation](https://static.slid.es/reveal/arrow.png)
-						</script>
-					</section>
-
-					<section data-markdown data-background-gradient="linear-gradient(to bottom, #17b2c3, #283b95)">
-						<script type="text/template">
-							## Beautiful Backgrounds
-
-							You can customize slides with:
-							- Solid colors
-							- Gradients
-							- Images
-							- Videos
-							- Even GIFs!
-
-							<small>Press ⬆️ to go back up</small>
+							<small>Press ⬆️ to go back</small>
 						</script>
 					</section>
 				</section>
 
-				<!-- Slide 3: Creating Questions -->
+				<!-- Slide 3: What is Jekyll? (with vertical slides) -->
 				<section>
 					<section data-markdown>
 						<script type="text/template">
-							## Creating Interactive Questions
+							## What is Jekyll?
 
-							Reveal.js can be enhanced with **quiz plugins** to create engaging learning experiences.
+							**Jekyll** is a static site generator that transforms plain text into static websites.
 
-							### Available Options:
+							### Benefits:
+							- 📄 No database needed
+							- ⚡ Fast performance
+							- 🎨 Themes & layouts
+							- 🔧 Easy customization
 
-							1. **reveal.js-quiz** - Dynamic quizzes
-							2. **reveal.js-plugins** - Q&A and polls
-							3. **Quarto-Quiz** - For Quarto users
-							4. **ASQ** - Active learning framework
-
-							<small>Explore examples below ⬇️</small>
+							<small>Explore more below ⬇️</small>
 						</script>
 					</section>
 
 					<section data-markdown data-background="#4d7e65">
 						<script type="text/template">
-							## Question Example
+							## Jekyll Themes
 
-							### What makes a good presentation?
+							GitHub Pages supports **official Jekyll themes** that provide:
 
-							**A)** Lots of text on every slide
-							**B)** Clear visuals and concise points ✓
-							**C)** Reading directly from slides
-							**D)** No images or graphics
+							- Consistent styling
+							- Professional layouts
+							- Responsive design
+							- Easy configuration
 
-							---
-
-							**Answer: B** - Good presentations use visuals to support key points, not replace the speaker!
+							<!-- Replace with your custom theme screenshot -->
+							![Jekyll Theme Example](https://jekyllrb.com/img/octojekyll.png)
 						</script>
 					</section>
 
 					<section data-markdown>
 						<script type="text/template">
-							## Multiple Choice Questions
+							## Configuration
 
-							### Which features does Reveal.js support?
+							Jekyll uses `_config.yml` for settings:
 
-							- [x] Markdown formatting
-							- [x] Code syntax highlighting
-							- [x] PDF export
-							- [x] Speaker notes
-							- [ ] Mind reading
+							```yaml
+							# Site settings
+							title: My GitHub Pages Website
+							description: A static website
+							theme: jekyll-theme-slate
 
-							---
+							# Build settings
+							markdown: kramdown
+							```
 
-							**All except mind reading!** (Though it does have an extensive API)
+							Simple YAML configuration controls your entire site!
 						</script>
 					</section>
 				</section>
 
-				<!-- Slide 4: Code Examples -->
+				<!-- Slide 4: Technologies Used -->
 				<section data-markdown>
 					<script type="text/template">
-						## Code Highlighting
+						## Technologies Used
 
-						Reveal.js supports beautiful syntax highlighting for code:
+						| Technology | Purpose |
+						|-----------|---------|
+						| **GitHub Pages** | Website hosting |
+						| **Jekyll** | Static site generator |
+						| **HTML** | Page structure |
+						| **YAML** | Configuration |
 
-						```javascript
-						// Initialize Reveal.js
-						Reveal.initialize({
-						  controls: true,
-						  progress: true,
-						  center: true,
-						  hash: true,
+						<!-- Replace with your custom technology diagram -->
+						![Tech Stack](https://via.placeholder.com/600x300/667eea/ffffff?text=Your+Custom+Image+Here)
 
-						  // Plugins
-						  plugins: [
-						    RevealMarkdown,
-						    RevealHighlight,
-						    RevealNotes
-						  ]
-						});
-						```
-
-						Perfect for **technical presentations** and **coding tutorials**!
+						All working together to create a powerful static website!
 					</script>
 				</section>
 
-				<!-- Slide 5: Markdown Benefits -->
+				<!-- Slide 5: Site Structure (with vertical slides) -->
 				<section>
 					<section data-markdown>
 						<script type="text/template">
-							## Why Use Markdown?
+							## Website Structure
 
-							Markdown makes content creation **fast and easy**:
+							A well-organized multi-page website:
 
-							| Feature | Benefit |
-							|---------|---------|
-							| Simple syntax | Quick to write |
-							| Readable | Easy to edit |
-							| Portable | Works everywhere |
-							| Version control | Git-friendly |
+							- 🏠 **Home** – Overview
+							- 👤 **About** – Information
+							- 💼 **Projects** – Portfolio
+							- 📧 **Contact** – Get in touch
+							- 📝 **Blog** – Updates
 
-							<small>See examples below ⬇️</small>
+							<small>See details below ⬇️</small>
 						</script>
 					</section>
 
-					<section data-markdown data-background="https://static.slid.es/reveal/image-placeholder.png">
+					<section data-markdown data-background-gradient="linear-gradient(to bottom, #17b2c3, #283b95)">
 						<script type="text/template">
-							## Markdown Syntax
+							## Navigation
 
-							```markdown
-							# Heading 1
-							## Heading 2
+							Simple HTML navigation links all pages:
 
-							**Bold text**
-							*Italic text*
-
-							- Bullet point
-							- Another point
-
-							[Link](https://revealjs.com)
-
-							![Image](url.png)
+							```html
+							<nav>
+							  <a href="/">Home</a> |
+							  <a href="/about.html">About</a> |
+							  <a href="/projects.html">Projects</a> |
+							  <a href="/contact.html">Contact</a> |
+							  <a href="/blog.html">Blog</a>
+							</nav>
 							```
+
+							<!-- Replace with your custom navigation screenshot -->
+							![Navigation Example](https://via.placeholder.com/600x200/764ba2/ffffff?text=Your+Navigation+Screenshot)
 						</script>
 					</section>
 				</section>
 
-				<!-- Slide 6: Advanced Features -->
+				<!-- Slide 6: Learning Outcomes -->
 				<section data-markdown data-background-gradient="linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
 					<script type="text/template">
-						## Advanced Features
+						## Learning Outcomes
 
-						### Take Your Presentations Further
+						### Skills Developed:
 
-						- 🎯 **Auto-Animate** - Smooth transitions
-						- 📱 **Touch Support** - Mobile friendly
-						- 🔍 **Zoom** - Focus on details
-						- 📄 **PDF Export** - Share easily
-						- 🎤 **Speaker View** - Notes and timer
-						- 🌐 **GitHub Pages** - Free hosting
+						✅ Creating GitHub repositories
+						✅ Deploying with GitHub Pages
+						✅ Configuring Jekyll themes
+						✅ Building multi-page websites
+						✅ Using version control
 
-						---
-
-						### Resources
-						- [Documentation](https://revealjs.com)
-						- [GitHub Repository](https://github.com/hakimel/reveal.js)
-						- [Community Plugins](https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware)
+						<!-- Replace with your custom achievement image -->
+						![Achievement](https://via.placeholder.com/400x300/f093fb/ffffff?text=Your+Achievement+Image)
 					</script>
 				</section>
 
@@ -237,21 +209,22 @@
 					<script type="text/template">
 						# Thank You! 🎉
 
-						## Start Creating Today
+						## Get Started Today
 
-						Reveal.js empowers you to create **stunning, interactive presentations** that engage your audience.
-
-						---
-
-						### Get Started:
-						1. Download from [revealjs.com](https://revealjs.com)
-						2. Edit the HTML/Markdown
-						3. Deploy to GitHub Pages
-						4. Share with the world!
+						GitHub Pages + Jekyll = **Easy Static Websites**
 
 						---
 
-						**Questions?** Press `S` for speaker notes
+						### Quick Start:
+						1. Create a repository: `username.github.io`
+						2. Add your HTML files
+						3. Configure `_config.yml`
+						4. Push to GitHub
+						5. Your site is live!
+
+						---
+
+						**Questions?** Visit [pages.github.com](https://pages.github.com)
 
 						<small>Press ESC for overview mode</small>
 					</script>
